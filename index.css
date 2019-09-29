@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+ul>li{
+	float: left;
+	margin: 10px;
+	background-color: #CCCCCC;
+	width: 130px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.fr{
+	float: right;
+}
+
+#box{
+	width: 1200px;
+	background-color: #F5F5F5;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+#box>button{
+	margin-bottom: 20px;
+}
+
+.head,.count{
+	line-height: 60px;
+	text-align: center;
+	padding: 20px;
+	display: none;
+}
+.head>input,.count>input{
+	line-height: 40px;
+	width: 300px;
+	margin-right: 50px;
+	font-size: 20px;
+	letter-spacing: 3px;
+	padding: 0 10px;
+}
+.head>button,.content button,#box>button,.count>button{
+	width: 200px;
+	line-height: 40px;
+	background: red;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.content>button{
+	background-color: #E4393C;
+}
+.again{
+	margin: 0 0 0 190px;
+}
+.return{
+	margin: 0 0 0 100px;
+}
+
+.addNum{
+	float: right;
+}
+
+.name>button{
+	margin: 40px 500px;
+}
+
+.activ{
+	background-color: orange;
+	color: blue;
+	font-size: 24px;
+	box-shadow: 5px 5px 5px #000000;
+	border-radius: 10px;
+}
